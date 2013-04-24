@@ -8,7 +8,6 @@ class AppKernel extends Kernel
     public function registerBundles()
     {
         $bundles = array(
-            //Package Bundles
             new Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
             new Symfony\Bundle\SecurityBundle\SecurityBundle(),
             new Symfony\Bundle\TwigBundle\TwigBundle(),
@@ -20,10 +19,6 @@ class AppKernel extends Kernel
             new JMS\AopBundle\JMSAopBundle(),
             new JMS\DiExtraBundle\JMSDiExtraBundle($this),
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
-            //Vendor Bundles Installed
-            new Knp\Bundle\MenuBundle\KnpMenuBundle(),
-            //Aplication Bundles
-            new Essentials\ExampleBundle\ExampleBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

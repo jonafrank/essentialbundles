@@ -1,7 +1,0 @@
-parameters:
-#    example.example.class: Essentials\ExampleBundle\Example
-
-services:
-#    example.example:
-#        class: %example.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]

@@ -1,3 +1,0 @@
-homepage:
-    pattern:  /home
-    defaults: { _controller: ExampleBundle:Example:index }
