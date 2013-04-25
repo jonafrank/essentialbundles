@@ -1,0 +1,10 @@
+services:
+  example.admin.user:
+    class: Essentials\ExampleBundle\Admin\UserAdmin
+    tags:
+      - { name: sonata.admin, manager_type: orm, group: users, label: "Users"}
+    arguments:
+      - ~
+      - Essentials\ExampleBundle\Entity\User
+      - 'SonataAdminBundle:CRUD'
+    

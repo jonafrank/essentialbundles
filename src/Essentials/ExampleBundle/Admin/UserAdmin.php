@@ -14,7 +14,7 @@ class UserAdmin extends Admin
         $form->add('firstName', null, array('label' => 'First Name'))
             ->add('lastName', null, array('label' => 'Last Name'))
             ->add('dni', null, array('label' => 'DNI'))
-            ->add('birthDate', null, array('label' => 'Birth Date'));
+            ->add('birthDate', 'birthday', array('label' => 'Birth Date'));
             
     }
     
