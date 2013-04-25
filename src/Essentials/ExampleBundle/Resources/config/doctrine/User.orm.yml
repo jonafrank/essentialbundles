@@ -1,0 +1,23 @@
+Essentials\ExampleBundle\Entity\User:
+    type: entity
+    table: user
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        firstName:
+            type: string
+            length: 255
+            column: first_name
+        lastName:
+            type: string
+            length: 255
+            column: last_name
+        dni:
+            type: integer
+            column: dni
+        birthDate:
+            type: date
+            column: birth_date
