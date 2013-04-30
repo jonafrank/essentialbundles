@@ -9,6 +9,8 @@ use Sonata\AdminBundle\Form\FormMapper;
 
 class UserAdmin extends Admin
 {
+    protected $translationDomain = 'ExampleBundle';
+    
     protected function configureFormFields(FormMapper $form) 
     {
         $form->add('firstName', null, array('label' => 'First Name'))
