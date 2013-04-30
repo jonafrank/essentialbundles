@@ -1,3 +1,7 @@
+tp_assets:
+    resource: "@TPAssetsBundle/Resources/config/routing.yml"
+    prefix:   /
+
 example:
     resource: "@ExampleBundle/Resources/config/routing.yml"
     prefix:   /
