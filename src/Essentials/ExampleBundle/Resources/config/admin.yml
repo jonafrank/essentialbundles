@@ -7,5 +7,7 @@ services:
             - ~
             - Essentials\ExampleBundle\Entity\User
             - 'SonataAdminBundle:CRUD'
+        calls:
+            - [setTranslationDomain, [ExampleBundle]]
         
     
